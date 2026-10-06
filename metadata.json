@@ -1,0 +1,6 @@
+{
+  "name": "AP Edge | FanDuel & DraftKings +EV Slot Analytics",
+  "description": "Herramienta profesional de Advantage Play para FanDuel y DraftKings Casino: cálculo matemático de +EV, slots de estado persistente, botes must-hit-by, rollover de bonos y gestión de bankroll.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

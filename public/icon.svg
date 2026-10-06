@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="512" height="512" rx="100" fill="url(#bgGrad)" />
+  <rect x="16" y="16" width="480" height="480" rx="84" fill="none" stroke="#334155" stroke-width="8" opacity="0.4" />
+  
+  <!-- Outer Ring Shield -->
+  <circle cx="256" cy="256" r="180" fill="none" stroke="url(#goldGrad)" stroke-width="12" />
+  
+  <!-- Edge Golden Bars -->
+  <path d="M 256 100 L 256 120 M 256 392 L 256 412 M 100 256 L 120 256 M 392 256 L 412 256" stroke="#FBBF24" stroke-width="8" stroke-linecap="round" />
+  
+  <!-- Stylized AP Letters -->
+  <text x="256" y="295" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="140" fill="#F59E0B" text-anchor="middle" letter-spacing="2">AP</text>
+  
+  <!-- Math +EV Indicator -->
+  <text x="256" y="360" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="34" fill="#38BDF8" text-anchor="middle" letter-spacing="4">+EV EDGE</text>
+</svg>
